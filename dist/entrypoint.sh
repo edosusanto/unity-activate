@@ -37,6 +37,8 @@ if [[ -n "$UNITY_LICENSE" ]] || [[ -n "$UNITY_LICENSE_FILE" ]]; then
   ACTIVATION_OUTPUT=$(unity-editor \
       -logFile /dev/stdout \
       -quit \
+      -username "$UNITY_EMAIL" \
+      -password "$UNITY_PASSWORD" \
       -manualLicenseFile $FILE_PATH)
 
   # Store the exit code from the verify command
