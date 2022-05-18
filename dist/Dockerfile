@@ -9,6 +9,7 @@ LABEL "com.github.actions.color"="gray-dark"
 LABEL "repository"="http://github.com/webbertakken/unity-actions"
 LABEL "homepage"="http://github.com/webbertakken/unity-actions"
 LABEL "maintainer"="Webber Takken <webber@takken.io>"
+LABEL "customize"="Edosusanto"
 
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
